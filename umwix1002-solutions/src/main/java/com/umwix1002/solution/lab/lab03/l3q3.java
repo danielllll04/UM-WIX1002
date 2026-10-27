@@ -20,7 +20,9 @@ public class l3q3 {
                 commission = 0.05;
             }
 
-            System.out.printf("The commission is %.2f", commission);
+            double totalCommission = salesVolume * commission;
+
+            System.out.printf("The commission is %.2f%n", commission);
         }
     }
 }
