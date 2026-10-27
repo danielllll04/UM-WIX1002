@@ -5,7 +5,7 @@ import java.util.Random;
 public class l3q2 {
 
     public static void main(String[] args) {
-        int randomNum = new Random().nextInt(10);
+        int randomNum = new Random().nextInt(6);
         String[] numbers = {"zero", "one", "two", "three", "four", "five"};
         System.out.printf("%d is %s", randomNum, numbers[randomNum]);
     }
